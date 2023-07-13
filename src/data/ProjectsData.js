@@ -38,7 +38,7 @@ export const data = [
     id: 5,
     img: image5,
     title: " Responsive Portfolio",
-    more: " React js, Saas, Email js, React Router, Mui ",
+    more: " React js, Saas, Email js, React Router, Mui, Yup, Formik ",
     projectLink: " https://github.com/omidoyin/My_Portfolio",
   },
   {
