@@ -42,7 +42,7 @@ const Hero = () => {
 
         <div className="right-section">
           <div>
-            <img src={image} />
+            <img src={image} alt="" />
           </div>
         </div>
       </div>
