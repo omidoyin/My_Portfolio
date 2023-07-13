@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "../styles/css/contact.min.css";
-import image from "../assets/image2.jpg";
+// import image from "../assets/image2.jpg";
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {

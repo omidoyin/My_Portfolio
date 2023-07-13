@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/css/projects.min.css";
-import image from "../assets/image2.jpg";
 import { data } from "../data/ProjectsData";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, } from "react-router-dom";
 
 const Projects = () => {
   const navigate = useNavigate();
