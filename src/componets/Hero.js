@@ -4,7 +4,6 @@ import image from "../assets/myProfilePic.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-
 const Hero = () => {
   return (
     <section className="hero">
@@ -43,7 +42,7 @@ const Hero = () => {
 
         <div className="right-section">
           <div>
-            <img src={image} alt="profile picture" />
+            <img src={image} />
           </div>
         </div>
       </div>
