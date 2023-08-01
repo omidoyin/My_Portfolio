@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/css/projects.min.css";
 import { data } from "../data/ProjectsData";
-import { useNavigate, } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
   const navigate = useNavigate();
@@ -12,11 +12,17 @@ const Projects = () => {
         <h2>Check out my projects</h2>
         <div className="grid">
           {data.map((item, index) => (
-            <div className="img" key={index}>
+            <div
+              className="img"
+              key={index}
+              onClick={() => {
+                navigate(`/projects/${index}`);
+              }}
+            >
               <button
-                onClick={() => {
-                  navigate(`/projects/${index}`);
-                }}
+                // onClick={() => {
+                //   navigate(`/projects/${index}`);
+                // }}
               >
                 explore
               </button>
