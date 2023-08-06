@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/css/hero.min.css";
-import image from "../assets/myProfilePic.png";
+// import image from "../assets/myProfilePic.png";
+// import image from "../assets/mine1.jpeg";
+// import image from "../assets/mine2.jpeg";
+import image from "../assets/mine33.jpeg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
