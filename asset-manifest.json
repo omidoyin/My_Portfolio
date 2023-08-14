@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/My_Portfolio/static/css/main.ebeb313d.css",
+    "main.js": "/My_Portfolio/static/js/main.60491bee.js",
+    "static/js/787.1ed0c42c.chunk.js": "/My_Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/themarkethubCover.PNG": "/My_Portfolio/static/media/themarkethubCover.d8920cb0d26c009b3d1a.PNG",
+    "static/media/RealEstateCover.PNG": "/My_Portfolio/static/media/RealEstateCover.51006fa46e691a72402a.PNG",
+    "static/media/MovieAppCover.PNG": "/My_Portfolio/static/media/MovieAppCover.f2cc34ca4b38e87b45ff.PNG",
+    "static/media/educationalCover.PNG": "/My_Portfolio/static/media/educationalCover.86e169feb8ec01533987.PNG",
+    "static/media/portfolioCover.PNG": "/My_Portfolio/static/media/portfolioCover.89a112e8c2ec7e3655fe.PNG",
+    "static/media/TodolistCover.PNG": "/My_Portfolio/static/media/TodolistCover.d1610d3ef6fdc750e4d2.PNG",
+    "static/media/mine33.jpeg": "/My_Portfolio/static/media/mine33.0b09d1d4b781884ec97d.jpeg",
+    "index.html": "/My_Portfolio/index.html",
+    "main.ebeb313d.css.map": "/My_Portfolio/static/css/main.ebeb313d.css.map",
+    "main.60491bee.js.map": "/My_Portfolio/static/js/main.60491bee.js.map",
+    "787.1ed0c42c.chunk.js.map": "/My_Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebeb313d.css",
+    "static/js/main.60491bee.js"
+  ]
+}
