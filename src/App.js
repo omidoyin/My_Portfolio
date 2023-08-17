@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./componets/HomePage";
 import Projects from "./componets/Projects";
 import Navigation from "./componets/Navigation";
@@ -14,7 +14,7 @@ import ScrollToTop from "./componets/ScrollToTop";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <Router>
         <ScrollToTop>
           <Navigation />
           <Routes>
@@ -25,7 +25,7 @@ function App() {
           </Routes>
           <Footer />
         </ScrollToTop>
-      </HashRouter>
+      </Router>
     </div>
   );
 }
