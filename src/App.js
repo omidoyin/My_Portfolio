@@ -9,6 +9,8 @@ import ProjectDetails from "./componets/ProjectDetails";
 import Experience from "./componets/Experience";
 import ScrollToTop from "./componets/ScrollToTop";
 
+// TO BE ADDED TO THE PACKAGE JSON BEFORE THE DEPENDENCIES FOR GITHUB PAGES DEPLOY
+  // "homepage": "https://omidoyin.github.io/My_Portfolio",
 function App() {
   return (
     <div className="App">

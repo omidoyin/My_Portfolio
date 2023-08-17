@@ -1,7 +1,8 @@
+
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://omidoyin.github.io/My_Portfolio",
+
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
