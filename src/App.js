@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./componets/HomePage";
 import Projects from "./componets/Projects";
 import Navigation from "./componets/Navigation";
@@ -10,11 +10,11 @@ import Experience from "./componets/Experience";
 import ScrollToTop from "./componets/ScrollToTop";
 
 // TO BE ADDED TO THE PACKAGE JSON BEFORE THE DEPENDENCIES FOR GITHUB PAGES DEPLOY
-  // "homepage": "https://omidoyin.github.io/My_Portfolio",
+// "homepage": "https://omidoyin.github.io/My_Portfolio",
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <ScrollToTop>
           <Navigation />
           <Routes>
@@ -25,7 +25,7 @@ function App() {
           </Routes>
           <Footer />
         </ScrollToTop>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
